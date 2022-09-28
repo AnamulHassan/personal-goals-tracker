@@ -1,0 +1,109 @@
+[
+  {
+    "id": "1101",
+    "name": "Performing salah five times a day",
+    "description": "Salah is the second of the Five Pillars of Islam . It is the belief that Muslims should pray five times each day. Prayer is important as it allows Muslims to communicate with Allah, listen to Allah and follow in the footsteps of the prophets.",
+    "time": "50",
+    "selected": "false",
+    "img": "https://i.ibb.co/6wqzTWy/prayer.jpg"
+  },
+
+  {
+    "id": "1102",
+    "name": "Meditation",
+    "description": "The basic concept of meditation is that it is a practice that connects the mind and the body. Its purpose is to help increase both physical and mental peace and calm, which also helps you to learn how to live more fully in the present.",
+    "time": "15",
+    "selected": "false",
+    "img": "https://i.ibb.co/b3C4dnp/meditation.jpg"
+  },
+
+  {
+    "id": "1103",
+    "name": "Walking",
+    "description": "Regular walking has all the standard benefits of aerobic exercise, such as improvements in the heart and circulatory systems, better blood glucose control, normalization of blood pressure and reduction of anxiety and depression.",
+    "time": "20",
+    "selected": "false",
+    "img": "https://i.ibb.co/cC38jds/walking.jpg"
+  },
+
+  {
+    "id": "1104",
+    "name": "Studying ",
+    "description": "Studying is not just important for educational development, but also builds personal skills. Having good study skills can improve your confidence, competence, and self-esteem. As well as helps reduce stress and anxiety around deadlines and exams.",
+    "time": "360",
+    "selected": "false",
+    "img": "https://i.ibb.co/d2z0QG8/studing.jpg"
+  },
+
+  {
+    "id": "1105",
+    "name": "Spending time with family",
+    "description": "Some advantages of having a family are increased happiness and satisfaction. Studies have shown that spending time with family can help reduce stress and anxiety, lead to a healthier lifestyle and lengthen your life. Family gives you motivation to be the best version of yourself.",
+    "time": "120",
+    "selected": "false",
+    "img": "https://i.ibb.co/pxm2FN4/spending-time-with-family.jpg"
+  },
+
+  {
+    "id": "1106",
+    "name": "Clean the room and work station",
+    "description": "A sterilized and tidy environment demonstrates professionalism to potential consumers that you care about your business and your personnel. A happy employee is a productive employee. As a result, it makes a far better impression than a worker who has to deal with a cluttered workspace and unhealthy working conditions.",
+    "time": "30",
+    "selected": "false",
+    "img": "https://i.ibb.co/W5Lvh8c/clean-the-room.jpg"
+  },
+
+  {
+    "id": "1107",
+    "name": "Physical exercise",
+    "description": "Regular physical activity is proven to help prevent and manage noncommunicable diseases such as heart disease, stroke, diabetes and several cancers. It also helps prevent hypertension, maintain healthy body weight and can improve mental health, quality of life and well-being.",
+    "time": "45",
+    "selected": "false",
+    "img": "https://i.ibb.co/Rp2F2qC/physical-exercise.jpg"
+  },
+
+  {
+    "id": "1108",
+    "name": "Gardening",
+    "description": "Gardening is one of those activities that people love to do, but few actually enjoy doing it. Gardening requires hard work and patience, and most people don't like either of those things. However, there are many benefits to gardening, including health benefits. There are even some studies showing that gardening can help you live longer. ",
+    "time": "40",
+    "selected": "false",
+    "img": "https://i.ibb.co/KKS1b5r/gardening.jpg"
+  },
+
+  {
+    "id": "1109",
+    "name": "Reciting Quran",
+    "description": "Reciting Quran daily benefits are the countless good deeds that the Muslim gets by reciting the Quran daily. Ibn Mas'ud (ra) reported: The Messenger of Allah (pbuh) said, “Whoever recites a letter from the Book of Allah, he will be credited with a good deed, and a good deed gets a ten-fold reward.",
+    "time": "30",
+    "selected": "false",
+    "img": "https://i.ibb.co/hsMnjjn/reciting-quran.jpg"
+  },
+
+  {
+    "id": "1110",
+    "name": "Writing journal",
+    "description": "Writing down your ideas forces you to organize your thoughts. It can help you communicate better both on paper and verbally, as there is a strong connection between writing and speaking. Journaling can also improve your ability to write well, particularly by improving your voice and vocabulary.",
+    "time": "30",
+    "selected": "false",
+    "img": "https://i.ibb.co/9YmKy6k/writing-journal.jpg"
+  },
+
+  {
+    "id": "1111",
+    "name": "Drawing",
+    "description": "Drawing and doodling fires up the same area in your brain as when you're learning a new skill or forming a new memory, and expands your mind in that way. It's so wickedly cool that something as accessible as drawing or doodling can improve your cognitive function so greatly.",
+    "time": "45",
+    "selected": "false",
+    "img": "https://i.ibb.co/r3YsBdh/drawing.jpg"
+  },
+
+  {
+    "id": "1112",
+    "name": "Personal care",
+    "description": "One of the ways to help the elderly is to give them a good sense of self by keeping them well-groomed and maintaining good personal hygiene. In order to foster trust and respect, seniors who require assistance with grooming and personal hygiene must feel trusted and respected.",
+    "time": "20",
+    "selected": "false",
+    "img": "https://i.ibb.co/9YGpxy9/personal-care.jpg"
+  }
+]
