@@ -1,6 +1,7 @@
 import './App.css';
 import Cards from './components/Cards/Cards';
 import Header from './components/Header/Header';
+import Navigation from './components/Navigation/Navigation';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
         <Header></Header>
         <Cards></Cards>
       </div>
-      <div className="right-side-container"></div>
+      <div className="right-side-container">
+        <Navigation></Navigation>
+      </div>
     </div>
   );
 }

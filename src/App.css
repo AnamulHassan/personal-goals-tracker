@@ -9,11 +9,12 @@ body {
 .App {
   width: 100vw;
   font-weight: 400;
-  background-color: #dee2e6;
+
+  display: flex;
 }
 .left-side-container {
-  border: 1px solid #3ee;
   width: 75%;
+  background-color: #dee2e6;
 }
 .right-side-container {
   width: 25%;

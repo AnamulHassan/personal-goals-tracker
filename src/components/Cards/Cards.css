@@ -1,6 +1,6 @@
 .cards-container {
   width: 90%;
-  margin: 50px auto;
+  margin: 20px auto;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
