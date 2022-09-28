@@ -1,0 +1,14 @@
+.header-container {
+  /* background-color: aqua; */
+  width: 90%;
+  margin: 50px auto 0;
+}
+.logo {
+  width: 20%;
+}
+.header-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #393b40;
+  line-height: 1.5;
+}

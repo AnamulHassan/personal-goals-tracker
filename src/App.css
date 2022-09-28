@@ -7,7 +7,16 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .App {
+  width: 100vw;
   font-weight: 400;
+  background-color: #dee2e6;
+}
+.left-side-container {
+  border: 1px solid #3ee;
+  width: 75%;
+}
+.right-side-container {
+  width: 25%;
 }
 
 /* {

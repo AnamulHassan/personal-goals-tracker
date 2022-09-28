@@ -1,0 +1,74 @@
+.card-container {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.card-img {
+  width: 100%;
+}
+.card-info {
+  height: 400px;
+  /* border: 1px solid black; */
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 5px 0;
+}
+.card-description {
+  font-size: 14px;
+  font-weight: 500;
+  color: #393b40;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+.time-require {
+  font-size: 18px;
+  margin: 5px 0;
+  font-weight: 600;
+}
+.btn {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #ff647e;
+  color: #fff;
+
+  cursor: pointer;
+}
+.btn-card {
+  display: block;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+.btn-card::before {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #00a987;
+  top: 50%;
+  left: 50%;
+  z-index: -10;
+  transform: translate(-50%, -50%) scale(0);
+  transition: all 0.5s ease-in-out;
+}
+.btn-card:hover.btn-card::before {
+  transform: translate(-50%, -50%) scale(10);
+}
+.btn-card:active {
+  background-color: #00a987;
+}
