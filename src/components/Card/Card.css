@@ -34,6 +34,8 @@
   font-weight: 600;
 }
 .btn {
+  -moz-user-select: none;
+  user-select: none;
   width: 100%;
   padding: 10px 0;
   font-size: 20px;
@@ -43,7 +45,6 @@
   border-radius: 8px;
   background-color: #ff647e;
   color: #fff;
-
   cursor: pointer;
 }
 .btn-card {
