@@ -14,7 +14,10 @@ function App() {
       .then(response => response.json())
       .then(data => setCardsData(data));
   }, []);
-
+  useEffect(() => {
+    const storedData = retrievedData();
+    setCardInfo(storedData);
+  }, []);
   const handlerAddList = cardsData => {
     const oldData = retrievedData();
     const { name, id, time } = cardsData;

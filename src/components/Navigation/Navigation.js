@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Navigation.css';
 import user from '../../img/user.jpg';
 import location from '../../img/location.png';
@@ -7,8 +7,21 @@ const Navigation = ({ cardInfo }) => {
   const time = cardInfo
     ?.map(card => +card.time)
     .reduce((previous, current) => previous + current, 0);
-  // console.log(time);
-  // const { time, id } = cardInfo;
+
+  const [breakTime, setBreakTime] = useState('');
+  useEffect(() => {
+    setBreakTime(localStorage.getItem('break-time'));
+  }, []);
+  const handleBreakTime = e => {
+    const button = e.target.childNodes[0].nodeValue;
+    if (button) {
+      const selectedBreakTime = button.slice(0, -1);
+      setBreakTime(selectedBreakTime);
+      localStorage.setItem('break-time', selectedBreakTime);
+    } else {
+      return;
+    }
+  };
   return (
     <div className="navigation-container">
       <div className="user-info">
@@ -37,21 +50,21 @@ const Navigation = ({ cardInfo }) => {
       </div>
       <div className="break-btn-container">
         <h3>Add a Break</h3>
-        <ul className="btn-break-item">
+        <ul onClick={e => handleBreakTime(e)} className="btn-break-item">
           <li className="btn-break">
             <span>5m</span>
           </li>
           <li className="btn-break">
             <span>10m</span>
           </li>
-          <li className="btn-break">
-            <span>10m</span>
+          <li active={true} className="btn-break">
+            <span>15m</span>
           </li>
           <li className="btn-break">
             <span>20m</span>
           </li>
           <li className="btn-break">
-            <span>20m</span>
+            <span>30m</span>
           </li>
         </ul>
       </div>
@@ -59,11 +72,11 @@ const Navigation = ({ cardInfo }) => {
         <h3>Goal Details</h3>
         <ul>
           <li>Working time</li>
-          <li>{time} minutes</li>
+          <li>{time ? time + 'minutes' : '0 minutes'}</li>
         </ul>
         <ul>
           <li>Break time</li>
-          <li>200 minutes</li>
+          <li>{breakTime ? breakTime + ' minutes' : '0 minutes'}</li>
         </ul>
         <button className="btn btn-navigation"> Activity Completed</button>
       </div>
