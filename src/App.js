@@ -7,16 +7,18 @@ import Questions from './components/Questions/Questions';
 
 function App() {
   return (
-    <div className="App">
-      <div className="left-side-container">
-        <Header></Header>
-        <Cards></Cards>
-        <Questions></Questions>
-        <Footer></Footer>
+    <div>
+      <div className="App">
+        <div className="left-side-container">
+          <Header></Header>
+          <Cards></Cards>
+          <Questions></Questions>
+        </div>
+        <div className="right-side-container">
+          <Navigation></Navigation>
+        </div>
       </div>
-      <div className="right-side-container">
-        <Navigation></Navigation>
-      </div>
+      <Footer></Footer>
     </div>
   );
 }

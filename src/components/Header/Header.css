@@ -12,3 +12,14 @@
   color: #393b40;
   line-height: 1.5;
 }
+
+@media (max-width: 48em) {
+  .logo {
+    width: 50%;
+  }
+}
+@media (max-width: 26em) {
+  .logo {
+    width: 50%;
+  }
+}

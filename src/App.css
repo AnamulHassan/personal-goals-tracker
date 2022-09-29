@@ -25,3 +25,48 @@ body {
   #393b40
   #ffecef
 } */
+@media (max-width: 62em) {
+  .left-side-container {
+    width: 50%;
+    background-color: #ffecef;
+  }
+  .right-side-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 48em) {
+  .left-side-container {
+    width: 50%;
+    background-color: #ffecef;
+  }
+  .right-side-container {
+    width: 50%;
+  }
+}
+@media (max-width: 36em) {
+  .App {
+    flex-direction: column;
+  }
+  .left-side-container {
+    width: 100%;
+    background-color: #ffecef;
+  }
+  .right-side-container {
+    width: 100%;
+  }
+}
+@media (max-width: 26em) {
+  .App {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-side-container {
+    width: 100%;
+    /* background-color: #b2c6f1; */
+  }
+  .right-side-container {
+    width: 100%;
+  }
+}

@@ -122,3 +122,34 @@
 .btn-navigation:active {
   transform: translate(0, 4%);
 }
+
+@media (max-width: 120em) {
+  .navigation-container {
+    position: fixed;
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 85em) {
+  .navigation-container {
+    position: fixed;
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 48em) {
+  .navigation-container {
+    position: fixed;
+    padding: 30px 30px;
+  }
+}
+@media (max-width: 36em) {
+  .navigation-container {
+    position: static;
+    padding: 30px 30px;
+  }
+}
+@media (max-width: 26em) {
+  .navigation-container {
+    position: static;
+    padding: 30px 30px;
+  }
+}
