@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ cardData }) => {
+const Card = ({ cardData, handlerAddList }) => {
   const { id, name, time, description, img } = cardData;
   // console.log(description.split(' ').length);
   return (
@@ -14,7 +14,12 @@ const Card = ({ cardData }) => {
         <p className="card-description">{description}</p>
         <p className="time-require">Time required: {time}m</p>
 
-        <button className="btn btn-card">Add to list</button>
+        <button
+          onClick={() => handlerAddList(cardData)}
+          className="btn btn-card"
+        >
+          Add to list
+        </button>
       </div>
     </div>
   );

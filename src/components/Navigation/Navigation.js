@@ -3,7 +3,12 @@ import './Navigation.css';
 import user from '../../img/user.jpg';
 import location from '../../img/location.png';
 
-const Navigation = () => {
+const Navigation = ({ cardInfo }) => {
+  const time = cardInfo
+    ?.map(card => +card.time)
+    .reduce((previous, current) => previous + current, 0);
+  // console.log(time);
+  // const { time, id } = cardInfo;
   return (
     <div className="navigation-container">
       <div className="user-info">
@@ -54,7 +59,7 @@ const Navigation = () => {
         <h3>Goal Details</h3>
         <ul>
           <li>Working time</li>
-          <li>200 minutes</li>
+          <li>{time} minutes</li>
         </ul>
         <ul>
           <li>Break time</li>
