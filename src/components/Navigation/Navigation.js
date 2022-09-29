@@ -75,7 +75,7 @@ const Navigation = ({ cardInfo }) => {
         <h3>Goal Details</h3>
         <ul>
           <li>Working time</li>
-          <li>{time ? time + 'minutes' : '0 minutes'}</li>
+          <li>{time ? time + ' minutes' : '0 minutes'}</li>
         </ul>
         <ul>
           <li>Break time</li>
