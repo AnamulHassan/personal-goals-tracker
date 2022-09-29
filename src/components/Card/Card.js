@@ -3,7 +3,7 @@ import './Card.css';
 
 const Card = ({ cardData }) => {
   const { id, name, time, description, img } = cardData;
-  console.log(description.split(' ').length);
+  // console.log(description.split(' ').length);
   return (
     <div className="card-container">
       <div>

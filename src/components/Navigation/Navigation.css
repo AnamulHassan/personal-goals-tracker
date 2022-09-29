@@ -1,4 +1,5 @@
 .navigation-container {
+  position: fixed;
   padding: 30px 20px;
 }
 .user-info {
@@ -32,7 +33,7 @@
 .user-other-info {
   width: 100%;
   margin-top: 10px;
-  background-color: #dee2e6;
+  background-color: #ffecef;
   display: flex;
   border-radius: 12px;
 }
@@ -49,10 +50,10 @@
   font-weight: 500;
 }
 .info-item:first-child {
-  border-right: 2px solid #959ba1;
+  border-right: 2px solid #ff647e;
 }
 .info-item:last-child {
-  border-left: 2px solid #959ba1;
+  border-left: 2px solid #ff647e;
 }
 .info-item li:first-child {
   color: #393b40;
@@ -66,7 +67,7 @@
 }
 .btn-break-item {
   padding: 18px 12px;
-  background-color: #dee2e6;
+  background-color: #ffecef;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -79,6 +80,7 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  border: 2px solid #ff647e;
   position: relative;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
@@ -98,7 +100,7 @@
 }
 .goal-details ul {
   padding: 18px 12px;
-  background-color: #dee2e6;
+  background-color: #ffecef;
   list-style: none;
   display: flex;
   justify-content: space-between;
