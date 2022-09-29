@@ -5,7 +5,11 @@ import img from '../../logo.png';
 const Footer = () => {
   return (
     <div className="footer-container">
-      <h3>I'm from footer</h3>
+      <img className="footer-logo" src={img} alt="logo" />
+      <p className="copyright-text">
+        Personal goals Tracker {new Date().getFullYear()}, &copy; All right
+        reserved.
+      </p>
     </div>
   );
 };
