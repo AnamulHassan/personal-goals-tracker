@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import './Navigation.css';
 import user from '../../img/user.jpg';
 import location from '../../img/location.png';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Navigation = ({ cardInfo }) => {
+  const notify = () => toast('Activity Completed');
   const time = cardInfo
     ?.map(card => +card.time)
     .reduce((previous, current) => previous + current, 0);
@@ -57,7 +60,7 @@ const Navigation = ({ cardInfo }) => {
           <li className="btn-break">
             <span>10m</span>
           </li>
-          <li active={true} className="btn-break">
+          <li className="btn-break">
             <span>15m</span>
           </li>
           <li className="btn-break">
@@ -78,7 +81,23 @@ const Navigation = ({ cardInfo }) => {
           <li>Break time</li>
           <li>{breakTime ? breakTime + ' minutes' : '0 minutes'}</li>
         </ul>
-        <button className="btn btn-navigation"> Activity Completed</button>
+        <div>
+          <button onClick={notify} className="btn btn-navigation">
+            {' '}
+            Activity Completed
+          </button>
+          <ToastContainer
+            position="top-center"
+            autoClose={2000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick={false}
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+          />
+        </div>
       </div>
     </div>
   );

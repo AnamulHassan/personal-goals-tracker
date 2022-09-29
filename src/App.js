@@ -9,6 +9,7 @@ import Questions from './components/Questions/Questions';
 function App() {
   const [cardsData, setCardsData] = useState([]);
   const [cardInfo, setCardInfo] = useState([]);
+
   useEffect(() => {
     fetch('my-activities.json')
       .then(response => response.json())
@@ -23,7 +24,6 @@ function App() {
     const { name, id, time } = cardsData;
     let newCardInfo = { name, id, time };
     if (oldData) {
-      console.log('if');
       const updateCardInfo = [...oldData, newCardInfo];
       setCardInfo(updateCardInfo);
       localStorage.setItem('card-info', JSON.stringify(updateCardInfo));

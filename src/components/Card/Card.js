@@ -2,8 +2,7 @@ import React from 'react';
 import './Card.css';
 
 const Card = ({ cardData, handlerAddList }) => {
-  const { id, name, time, description, img } = cardData;
-  // console.log(description.split(' ').length);
+  const { name, time, description, img } = cardData;
   return (
     <div className="card-container">
       <div>
